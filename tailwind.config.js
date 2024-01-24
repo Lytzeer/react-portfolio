@@ -6,11 +6,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
     colors: {
-      purple1: '#2b1758',
-      purple2: '#251d6d',
-      purple3: '#6832a8',
+      purple1: '#4613CD',
+      pink1: '#CE759A',
       cblack: '#080808',
       cwhite: '#e2e2e2',
     },
