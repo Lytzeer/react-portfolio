@@ -22,7 +22,7 @@ import Tailwind from '../../assets/img/tailwind.png';
 import Typescript from '../../assets/img/typescript.png';
 import Vscode from '../../assets/img/vs.png';
 import Wordpress from '../../assets/img/wordpress.png';
-
+import { TypeAnimation } from 'react-type-animation';
 import React from 'react';
 
 const Home = () => {
@@ -33,8 +33,36 @@ const Home = () => {
                     <div className="hero min-h-full">
                         <div className="hero-content flex-col lg:flex-row">
                             <div className=''>
-                                <h1 className="text-5xl flex">Hello ! I'm <span className="text-gradient font-gotham-ultra-italic"> <span className='ml-4'>Lukas Portier<span className='text-cwhite'>,</span></span></span></h1>
-                                <p className="text-5xl">a French web developer</p>
+                                <h1 className="text-5xl flex">Hello ! I'm <span className="text-gradient font-gotham-ultra-italic"> <span className='ml-4'>
+                                    <TypeAnimation
+                                        sequence={[
+                                            // Same substring at the start will only be typed out once, initially
+                                            'Lukas Portier',
+                                            5000, // wait 1s before replacing "Mice" with "Hamsters"
+                                            'Lytzeer',
+                                            5000,
+                                        ]}
+                                        wrapper="span"
+                                        speed={50}
+                                        style={{display: 'inline-block' }}
+                                        repeat={Infinity}
+                                    />
+                                    <span className='text-cwhite'>,</span></span></span></h1>
+                                <p className="text-5xl"> 
+                                    <TypeAnimation
+                                        sequence={[
+                                            // Same substring at the start will only be typed out once, initially
+                                            'a French web developer',
+                                            5000, // wait 1s before replacing "Mice" with "Hamsters"
+                                            'a French mobile developer',
+                                            5000,
+                                        ]}
+                                        wrapper="span"
+                                        speed={50}
+                                        style={{display: 'inline-block' }}
+                                        repeat={Infinity}
+                                    />
+                                </p>
                             </div>
                         </div>
                     </div>
