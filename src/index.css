@@ -133,3 +133,10 @@ code {
     color: transparent;
   }
 }
+
+@layer utilities {
+  .button-gradient {
+    background-image: linear-gradient(to right, #CE759A, #4613CD);
+    background-clip: background;
+  }
+}
