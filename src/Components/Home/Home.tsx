@@ -79,7 +79,7 @@ const Home = () => {
                                 <h2 className="card-title">Pokemon CLI</h2>
                                 <p className='text-sm'>Pokemon Combat System in Python</p>
                                 <div className="card-actions justify-end">
-                                    <a href="https://github.com/Lytzeer/PokemonPython">
+                                    <a href="https://github.com/Lytzeer/PokemonPython" target='blank'>
                                         <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
                                     </a>
                                 </div>
@@ -91,7 +91,7 @@ const Home = () => {
                                 <h2 className="card-title">Hangman</h2>
                                 <p className='text-sm'>CLI version of the Hangman game in Golang</p>
                                 <div className="card-actions justify-end">
-                                    <a href="https://github.com/Lytzeer/hangman-classic">
+                                    <a href="https://github.com/Lytzeer/hangman-classic" target='blank'>
                                         <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
                                     </a>
                                 </div>
@@ -103,7 +103,7 @@ const Home = () => {
                                 <h2 className="card-title">Hangman Web</h2>
                                 <p className='text-sm'>Web version of the Hangman game in Golang</p>
                                 <div className="card-actions justify-end">
-                                    <a href="https://github.com/Lytzeer/hangman-web">
+                                    <a href="https://github.com/Lytzeer/hangman-web" target='blank'>
                                         <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
                                     </a>
                                 </div>
@@ -117,7 +117,7 @@ const Home = () => {
                                 <h2 className="card-title">Flowers E-commerce</h2>
                                 <p className='text-sm'>E-commerce website in php Symfony</p>
                                 <div className="card-actions justify-end">
-                                    <a href="https://github.com/Lytzeer/Flowers-Ecommerce">
+                                    <a href="https://github.com/Lytzeer/Flowers-Ecommerce" target='blank'>
                                         <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
                                     </a>
                                 </div>
@@ -129,7 +129,7 @@ const Home = () => {
                                 <h2 className="card-title">Portfolio</h2>
                                 <p className='text-sm'>My portfolio website in ReactJS</p>
                                 <div className="card-actions justify-end">
-                                    <a href="https://github.com/Lytzeer/react-portfolio">
+                                    <a href="https://github.com/Lytzeer/react-portfolio" target='blank'>
                                         <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
                                     </a>
                                 </div>
@@ -141,7 +141,7 @@ const Home = () => {
                                 <h2 className="card-title">Monitoring</h2>
                                 <p className='text-sm'>Monitoring app for Linux Red Hat machine on Python</p>
                                 <div className="card-actions justify-end">
-                                    <a href="https://github.com/Lytzeer/Monit">
+                                    <a href="https://github.com/Lytzeer/Monit" target='blank'>
                                         <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
                                     </a>
                                 </div>
