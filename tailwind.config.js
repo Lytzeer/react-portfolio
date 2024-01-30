@@ -17,6 +17,7 @@ module.exports = {
       cblack: '#080808',
       cwhite: '#e2e2e2',
       cwhite2: '#d9d9d9',
+      cblack2: '#0E0E0E',
     },
   },
   plugins: [require("daisyui")],

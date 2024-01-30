@@ -48,20 +48,8 @@ const Home = () => {
                                         repeat={Infinity}
                                     />
                                     <span className='text-cwhite'>,</span></span></span></h1>
-                                <p className="text-5xl"> 
-                                    <TypeAnimation
-                                        sequence={[
-                                            // Same substring at the start will only be typed out once, initially
-                                            'a French web developer',
-                                            5000, // wait 1s before replacing "Mice" with "Hamsters"
-                                            'a French mobile developer',
-                                            5000,
-                                        ]}
-                                        wrapper="span"
-                                        speed={50}
-                                        style={{display: 'inline-block' }}
-                                        repeat={Infinity}
-                                    />
+                                <p className="text-4xl"> 
+                                    a French web and mobile developer.
                                 </p>
                             </div>
                         </div>
@@ -77,7 +65,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='text-5xl font-gotham-ultra-italic flex flex-col items-center'>
+            <div className='text-5xl font-gotham-bold flex flex-col items-center'>
                 <h1 className='text-gradient pb-8'>
                     <span className='mx-4'>
                         MY PROJECTS
@@ -167,7 +155,7 @@ const Home = () => {
                             MY TECH STACK
                         </span>
                     </h1>
-                    <div className='flex flex-wrap justify-center pt-8'>
+                    <div className='flex flex-wrap justify-center pt-8 pb-16'>
                         <img src={Csharp} alt="C#" className='h-40'/>
                         <img src={Python} alt="Python" className='h-40'/>
                         <img src={Reactjs} alt="React" className='h-40'/>
@@ -187,6 +175,30 @@ const Home = () => {
                         <img src={Vscode} alt="VSC" className='h-40'/>
                         <img src={Wordpress} alt="Wordpress" className='h-40'/>
                     </div>
+                </div>
+            </div>
+            <div className='bg-cblack2 flex flex-row justify-between'>
+                <div className='flex flex-col justify-between'>
+                    <h1 className='text-gradient pt-4 pb-2'>
+                        <span className='mx-4'>
+                            Lukas Portier
+                        </span>
+                        <span className='text-cwhite'>|</span>
+                        <span className='mx-4'>
+                            Lytzeer
+                        </span>
+                    </h1>
+                    <span className='mx-4 text-gradient pb-2'>
+                        © 2024
+                    </span>
+                </div>
+                <div className='flex flex-row items-center pr-4'>
+                    <a href="https://www.linkedin.com/in/lukas-portier/">
+                        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin"/>
+                    </a>
+                    <a href="https://www.instagram.com/lytz_dev/">
+                        <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="instagram"/>
+                    </a>
                 </div>
             </div>
         </div>
