@@ -140,3 +140,16 @@ code {
     background-clip: background;
   }
 }
+
+@layer utilities {
+  .button-gradient-hover {
+    background-image: linear-gradient(to right, #CE759A, #4613CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+@layer utilities {
+  .card-shadow {
+    filter: drop-shadow(0px 4px 30px rgba(255, 255, 255, 0.2));
+  }
+}

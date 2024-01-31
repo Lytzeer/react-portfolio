@@ -4,6 +4,8 @@ import hangman from '../../assets/img/hangman-classic.png';
 import hangmanw from '../../assets/img/hangman-web.png';
 import ecommerce from '../../assets/img/ecommerce.png';
 import monitoring from '../../assets/img/monitoring.jpg';
+import Forum from '../../assets/img/forum.png';
+import WeatherApp from '../../assets/img/weatherapp.png';
 import Csharp from '../../assets/img/csharp.png';
 import Python from '../../assets/img/python.png';
 import Reactjs from '../../assets/img/reactjs.png';
@@ -72,78 +74,104 @@ const Home = () => {
                         MY PROJECTS
                     </span>
                 </h1>
-                <div className='flex flex-col'>
+                <div className='flex flex-col '>
                     <div className='flex flex-row py-8'>
-                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8">
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
                             <figure><img src={pokemoncli} alt="Shoes" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">Pokemon CLI</h2>
-                                <p className='text-sm'>Pokemon Combat System in Python</p>
+                                <h2 className="card-title text-cwhite">Pokemon CLI</h2>
+                                <p className='text-sm text-cwhite'>Pokemon Combat System in Python</p>
                                 <div className="card-actions justify-end">
                                     <a href="https://github.com/Lytzeer/PokemonPython" target='blank'>
-                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8">
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
                             <figure><img src={hangman} alt="Shoes" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">Hangman</h2>
-                                <p className='text-sm'>CLI version of the Hangman game in Golang</p>
+                                <h2 className="card-title text-cwhite">Hangman</h2>
+                                <p className='text-sm text-cwhite'>CLI version of the Hangman game in Golang</p>
                                 <div className="card-actions justify-end">
                                     <a href="https://github.com/Lytzeer/hangman-classic" target='blank'>
-                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8">
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
                             <figure><img src={hangmanw} alt="Shoes"  className='h-44'/></figure>
                             <div className="card-body">
-                                <h2 className="card-title">Hangman Web</h2>
-                                <p className='text-sm'>Web version of the Hangman game in Golang</p>
+                                <h2 className="card-title text-cwhite">Hangman Web</h2>
+                                <p className='text-sm text-cwhite'>Web version of the Hangman game in Golang</p>
                                 <div className="card-actions justify-end">
                                     <a href="https://github.com/Lytzeer/hangman-web" target='blank'>
-                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className='flex flex-row py-8'>
-                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8">
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
                             <figure><img src={ecommerce} alt="E-commerce" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">Flowers E-commerce</h2>
-                                <p className='text-sm'>E-commerce website in php Symfony</p>
+                                <h2 className="card-title text-cwhite">Flowers E-commerce</h2>
+                                <p className='text-sm text-cwhite'>E-commerce website in php Symfony</p>
                                 <div className="card-actions justify-end">
                                     <a href="https://github.com/Lytzeer/Flowers-Ecommerce" target='blank'>
-                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8">
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
                             <figure><img src={portfolio} alt="portfolio" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">Portfolio</h2>
-                                <p className='text-sm'>My portfolio website in ReactJS</p>
+                                <h2 className="card-title text-cwhite">Portfolio</h2>
+                                <p className='text-sm text-cwhite'>My portfolio website in ReactJS</p>
                                 <div className="card-actions justify-end">
                                     <a href="https://github.com/Lytzeer/react-portfolio" target='blank'>
-                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8">
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
                             <figure><img src={monitoring} alt="Monitoring"  className='h-44'/></figure>
                             <div className="card-body">
-                                <h2 className="card-title">Monitoring</h2>
-                                <p className='text-sm'>Monitoring app for Linux Red Hat machine on Python</p>
+                                <h2 className="card-title text-cwhite">Monitoring</h2>
+                                <p className='text-sm text-cwhite'>Monitoring app for Linux Red Hat machine on Python</p>
                                 <div className="card-actions justify-end">
                                     <a href="https://github.com/Lytzeer/Monit" target='blank'>
-                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient ">SEE MORE</button>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-row py-8'>
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
+                            <figure><img src={Forum} alt="forum" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title text-cwhite">Forum</h2>
+                                <p className='text-sm text-cwhite'>Forum website in Golang</p>
+                                <div className="card-actions justify-end">
+                                    <a href="https://github.com/Lytzeer/react-portfolio" target='blank'>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 card-shadow">
+                            <figure><img src={WeatherApp} alt="Weather App" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title text-cwhite">WeatherApp</h2>
+                                <p className='text-sm text-cwhite'>Weather App in C# .net with Avalonia</p>
+                                <div className="card-actions justify-end">
+                                    <a href="https://github.com/Lytzeer/react-portfolio" target='blank'>
+                                        <button className="btn btn-primary text-cwhite tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
                                     </a>
                                 </div>
                             </div>
