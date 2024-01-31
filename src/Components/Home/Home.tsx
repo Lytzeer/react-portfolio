@@ -22,6 +22,7 @@ import Tailwind from '../../assets/img/tailwind.png';
 import Typescript from '../../assets/img/typescript.png';
 import Vscode from '../../assets/img/vs.png';
 import Wordpress from '../../assets/img/wordpress.png';
+import Linkedin from '../../assets/img/linkedin.png';
 import { TypeAnimation } from 'react-type-animation';
 import React from 'react';
 
@@ -192,13 +193,13 @@ const Home = () => {
                         © 2024
                     </span>
                 </div>
-                <div className='flex flex-row items-center pr-4'>
+                <div className='flex flex-row items-center pr-4 w-16'>
                     <a href="https://www.linkedin.com/in/lukas-portier/">
-                        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin"/>
+                        <img src={Linkedin} alt="linkedin"/>
                     </a>
-                    <a href="https://www.instagram.com/lytz_dev/">
+                    {/* <a href="https://www.instagram.com/lytz_dev/">
                         <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="instagram"/>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>
