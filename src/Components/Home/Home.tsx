@@ -36,7 +36,7 @@ const Home = () => {
                     <div className="hero min-h-full">
                         <div className="hero-content flex-col lg:flex-row">
                             <div className=''>
-                                <h1 className="lg:text-5xl md:text-3xlflex">Hello ! I'm <span className="text-gradient md:text-gradient sm:text-gradient font-gotham-ultra-italic"> <span className='ml-4'>
+                                <h1 className="lg:text-5xl md:text-3xlflex">Hello ! I'm <span className=" font-gotham-ultra-italic"> <span className='ml-4'>
                                     <TypeAnimation
                                         sequence={[
                                             // Same substring at the start will only be typed out once, initially
@@ -47,6 +47,7 @@ const Home = () => {
                                         ]}
                                         wrapper="span"
                                         speed={50}
+                                        className='text-gradient'
                                         style={{display: 'inline-block'}}
                                         repeat={Infinity}
                                     />
