@@ -71,7 +71,7 @@ const Home = () => {
             </div> */}
             <div className='h-screen flex lg:flex-row md:flex-row items-center lg:justify-evenly sm justify-center sm:flex-col flex-col'>
                 <div className='flex flex-col'>
-                    <h1 className="lg:text-5xl md:text-3xl">Hello ! I'm <span className=" font-gotham-ultra-italic"> <span className=' md:ml-2 sm:ml-2 ml-4'>
+                    <h1 className="lg:text-5xl md:text-3xl sm:text-3xl text-3xl">Hello ! I'm <span className=" font-gotham-ultra-italic"> <span className=' md:ml-2 sm:ml-2 ml-4'>
                         <TypeAnimation
                             sequence={[
                                 'Lukas Portier',
@@ -86,7 +86,7 @@ const Home = () => {
                             repeat={Infinity}
                         />
                         <span className='text-cwhite'>,</span></span></span></h1>
-                    <p className="lg:text-4xl md:text-2xl"> 
+                    <p className="lg:text-4xl md:text-2xl sm:text-xl text-2xl"> 
                         a French web and mobile developer.
                     </p>
                 </div>
