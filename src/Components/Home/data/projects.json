@@ -1,0 +1,74 @@
+{
+    "project": [
+        {
+            "name": "PokemonPython",
+            "repo_url": "https://www.github.com/Lytzeer/PokemonPython",
+            "description": "Pokemon Combat System in Python",
+            "collaborators": [
+            ],
+            "private": false
+        },
+        {
+            "name": "WeatherApp",
+            "repo_url": "https://www.github.com/Lytzeer/WeatherApp",
+            "description": "Calculator in C#",
+            "collaborators": [
+                "Matsuel",
+                "Ninjawill543"
+            ],
+            "private": false
+        },
+        {
+            "name": "Monitoring",
+            "repo_url": "https://www.github.com/Lytzeer/Monit",
+            "description": "Monitoring app in Python",
+            "collaborators": [
+                "Matsuel"
+            ],
+            "private": false
+        },
+        {
+            "name": "Hangman-web",
+            "repo_url": "https://www.github.com/Lytzeer/hangman-web",
+            "description": "Hangman in Go and HTML CSS",
+            "collaborators": [
+                "Matsuel"
+            ],
+            "private": false
+        },
+        {
+            "name": "Hangman Classic",
+            "repo_url": "https://www.github.com/Lytzeer/hangman-classic",
+            "description": "Hangman in Go",
+            "collaborators": [
+                "Matsuel"
+            ],
+            "private": false
+        },
+        {
+            "name": "Portfolio",
+            "repo_url": "https://www.github.com/Lytzeer/react-portfolio",
+            "description": "Portfolio in React",
+            "collaborators": [
+            ],
+            "private": false
+        },
+        {
+            "name": "Forum",
+            "repo_url": "https://www.github.com/Lytzeer/forum",
+            "description": "Forum in Go",
+            "collaborators": [
+                "Matsuel"
+            ],
+            "private": false
+        },
+        {
+            "name": "Flowers",
+            "repo_url": "https://github.com/Lytzeer/Flowers-Ecommerce",
+            "description": "Ecommerce website in PHP Symfony",
+            "collaborators": [
+            ],
+            "private": false
+        }
+    ]
+}
