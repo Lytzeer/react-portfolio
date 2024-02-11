@@ -1,7 +1,7 @@
 import React from 'react';
-import Main from './Main';
-import Body from './Body';
-import Footer from './Footer';
+import Main from './Main/Main';
+import Body from './Body/Body';
+import Footer from './Footer/Footer';
 
 const Home = () => {  
     return (

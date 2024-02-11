@@ -1,6 +1,6 @@
 import React from "react";
-import Project from "./Projects";
-import Stack from "./Stack";
+import Project from "./Projects/Projects";
+import Stack from "./Stack/Stack";
 
 const Projects = () => {
     return(

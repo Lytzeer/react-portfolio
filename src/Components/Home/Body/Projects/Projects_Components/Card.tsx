@@ -1,13 +1,13 @@
 import React from "react";
-import Project from '../data/projects.json';
-import portfolio from '../../../assets/img/portfolio.gif';
-import pokemoncli from '../../../assets/img/pokemon-cli.jpg';
-import hangman from '../../../assets/img/hangman-classic.png';
-import hangmanw from '../../../assets/img/hangman-web.png';
-import ecommerce from '../../../assets/img/ecommerce.png';
-import monitoring from '../../../assets/img/monitoring.jpg';
-import Forum from '../../../assets/img/forum.png';
-import WeatherApp from '../../../assets/img/weatherapp.png';
+import Project from '../../../data/projects.json';
+import portfolio from '../../../../../assets/img/portfolio.gif';
+import pokemoncli from '../../../../../assets/img/pokemon-cli.jpg';
+import hangman from '../../../../../assets/img/hangman-classic.png';
+import hangmanw from '../../../../../assets/img/hangman-web.png';
+import ecommerce from '../../../../../assets/img/ecommerce.png';
+import monitoring from '../../../../../assets/img/monitoring.jpg';
+import Forum from '../../../../../assets/img/forum.png';
+import WeatherApp from '../../../../../assets/img/weatherapp.png';
 
 const Card = () => {
     var images = [pokemoncli, WeatherApp, monitoring, hangmanw, hangman, portfolio, Forum, ecommerce]  
