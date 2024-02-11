@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from '../../../assets/img/portfolio.gif';
+import portfolio from '../../../../assets/img/portfolio.gif';
 
 const Right = () => {
     return(
