@@ -15,7 +15,7 @@ const Card = () => {
         <div className='flex flex-wrap justify-center w-full'>
             {Project.project.map((project, index) => {
                 return(
-                    <div className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 mb-8 card-shadow">
+                    <div key={project.name} className="card w-96 h-96 bg-base-100 shadow-xl image-full mx-8 mb-8 card-shadow">
                         <figure><img src={images[index]} alt={project.name} /></figure>
                         <div className="card-body">
                             <h2 className="card-title text-cwhite">{project.name}</h2>
