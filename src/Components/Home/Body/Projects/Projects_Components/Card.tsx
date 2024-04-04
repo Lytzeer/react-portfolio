@@ -10,7 +10,7 @@ import Forum from '../../../../../assets/img/forum.png';
 import WeatherApp from '../../../../../assets/img/weatherapp.png';
 
 const Card = () => {
-    var images = [pokemoncli, WeatherApp, monitoring, hangmanw, hangman, portfolio, Forum, ecommerce]  
+    let images = [pokemoncli, WeatherApp, monitoring, hangmanw, hangman, portfolio, Forum, ecommerce]  
     return(
         <div className='flex flex-wrap justify-center w-full'>
             {Project.project.map((project, index) => {
