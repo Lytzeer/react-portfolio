@@ -8,9 +8,10 @@ import ecommerce from '../../../../../assets/img/ecommerce.png';
 import monitoring from '../../../../../assets/img/monitoring.jpg';
 import Forum from '../../../../../assets/img/forum.png';
 import WeatherApp from '../../../../../assets/img/weatherapp.png';
+import Lrfeh from '../../../../../assets/img/lrfeh.png';
 
 const Card = () => {
-    let images = [pokemoncli, WeatherApp, monitoring, hangmanw, hangman, portfolio, Forum, ecommerce]  
+    let images = [pokemoncli, WeatherApp, monitoring, hangmanw, hangman, portfolio, Forum, ecommerce, Lrfeh]  
     return(
         <div className='flex flex-wrap justify-center w-full'>
             {Project.project.map((project, index) => {

@@ -69,6 +69,14 @@
             "collaborators": [
             ],
             "private": false
+        },
+        {
+            "name": "LRFEH",
+            "repo_url": "https://github.com/Lytzeer/lrfeh",
+            "description": "React Front-End Hub",
+            "collaborators": [
+            ],
+            "private": false
         }
     ]
 }
