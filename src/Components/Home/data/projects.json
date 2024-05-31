@@ -64,7 +64,7 @@
         },
         {
             "name": "Flowers",
-            "repo_url": "https://github.com/Lytzeer/Flowers-Ecommerce",
+            "repo_url": "https://flowers.alexandrebel.me/",
             "description": "Ecommerce website in PHP Symfony",
             "collaborators": [
             ],
@@ -72,7 +72,7 @@
         },
         {
             "name": "LRFEH",
-            "repo_url": "https://github.com/Lytzeer/lrfeh",
+            "repo_url": "https://lrfeh.netlify.app/",
             "description": "React Front-End Hub",
             "collaborators": [
             ],
